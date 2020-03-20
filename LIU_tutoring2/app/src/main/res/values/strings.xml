@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LIU_tutoring</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="courses">
+        <item>business1</item>
+        <item>business2</item>
+        <item>business3</item>
+        <item>csci1</item>
+        <item>csci2</item>
+        <item>IT1</item>
+        <item>IT2</item>
+        <item>bio1</item>
+        <item>bio2</item>
+        <item>econ1</item>
+        <item>econ2</item>
+        <item>english1</item>
+        <item>english2</item>
+        <item>islamic civilisation</item>
+    </string-array>
+</resources>

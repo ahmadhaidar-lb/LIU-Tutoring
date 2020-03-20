@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "477124303761",
+    "firebase_url": "https://liututoring2.firebaseio.com",
+    "project_id": "liututoring2",
+    "storage_bucket": "liututoring2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477124303761:android:19d4d62a6eaf30097ed830",
+        "android_client_info": {
+          "package_name": "com.example.joelle.liu_tutoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477124303761-3e002jg5nb87p4bvc7abehpic5fmlgat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joelle.liu_tutoring",
+            "certificate_hash": "f7e72935b36e751f46d918239332facb18ad2a65"
+          }
+        },
+        {
+          "client_id": "477124303761-0jnesnl9alhnr9cphvjn8ns8q2uga8g7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYMF_mTegoTy22-irS8OP1O6FcLh60QdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477124303761-0jnesnl9alhnr9cphvjn8ns8q2uga8g7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

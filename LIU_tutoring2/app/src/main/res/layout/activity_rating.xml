@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".RatingActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="180dp"
+            android:background="@color/colorPrimaryDark">
+
+
+        </RelativeLayout>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_margin="00dp">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_marginStart="20dp"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:src="@mipmap/ic_add_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"/>
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/nameTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="5dp"
+                    >
+
+                </TextView>
+                <TextView
+                    android:id="@+id/typeTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type"
+                    android:layout_marginLeft="9sp"
+                    android:layout_marginStart="5dp"
+                    >
+
+                </TextView>
+                <TextView
+                    android:id="@+id/emailTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    >
+
+                </TextView>
+                <TextView
+                    android:id="@+id/rateTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rate"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    >
+
+                </TextView>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment">
+
+
+            <Button
+                android:id="@+id/rateBtn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="130dp"
+
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginBottom="130dp"
+                android:text="rate" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
